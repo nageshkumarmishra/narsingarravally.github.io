@@ -16,6 +16,14 @@
   box-shadow: 10px 10px 5px -6px rgba(185, 185, 201, 1);
   object-fit: cover;
 }
+.contact-page-logo {
+  position: absolute;
+  right: 100px; /* 100 pixels from the right side of the container */
+  top: 50%; /* Centered vertically */
+  transform: translateY(-50%); /* Adjust vertical position to truly center it */
+  width: 400px; /* Set the width to 200 pixels */
+  height: 400px; /* Set the height to 200 pixels */
+}
 
 /* ------------------------
 *	General
