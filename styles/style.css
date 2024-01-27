@@ -494,7 +494,7 @@ video {
   border-radius: 0;
   padding: 0;
   margin-left: 15px;
-  background: #fc5356;
+  background: #FF5F15;
   border: none;
 }
 
@@ -1330,6 +1330,15 @@ video {
 /*---------------------------
    Portfolio Start
   ------------------------------*/
+  @media (max-width: 768px) {
+    .contact-page-logo {
+      position: absolute; /* or absolute, if you want it to scroll with the page */
+      right: 10px; /* Adjust for mobile screen padding */
+      top: 10px; /* Adjust for mobile screen padding */
+      width: 200px; /* Set the width to 100 pixels for mobile */
+      height: 200px; /* Set the height to 100 pixels for mobile */
+    }
+  }
 .portfolio-content.grid-col-2 .grid-item {
   width: 50%;
 }
