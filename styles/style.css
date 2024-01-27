@@ -25,6 +25,26 @@
   height: 400px; /* Set the height to 200 pixels */
 }
 
+/* Custom button styles */
+.home-banner-02 .ht-text button {
+  width: 300px; /* Adjust as needed, or use a specific pixel width */
+  height: 50px; /* Set the height to 50px */
+  background-color: #FF5F15; /* Set the background color to orange */
+  color: white; /* Set the text color to white */
+  border: none; /* Remove border if present */
+  padding: 0 20px; /* Add some horizontal padding */
+  font-size: 16px; /* Adjust the font size as desired */
+  line-height: 50px; /* Align the text vertically */
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.home-banner-02 .ht-text button:hover {
+  background-color: darkorange; /* Slightly darker orange on hover for better UX */
+}
+
 /* ------------------------
 *	General
 ------------------------*/
@@ -893,7 +913,7 @@ video {
   color: #20247b;
   font-size: 45px;
   margin: 0 0 15px;
-  border-left: 5px solid #fc5356;
+  border-left: 5px solid #FF5F15;
   padding-left: 15px;
 }
 
@@ -1755,7 +1775,7 @@ video {
   height: 35px;
   position: relative;
   display: inline-block;
-  background: #fc5356;
+  background: #FF5F15;
   border-radius: 50%;
   animation: down 1s linear infinite;
   -webkit-animation: down 1s linear infinite;
@@ -1949,7 +1969,7 @@ video {
   width: 70px;
   height: 70px;
   line-height: 70px;
-  background: #fc5356;
+  background: #FF5F15;
   color: #ffffff;
   text-align: center;
   border-radius: 50%;
