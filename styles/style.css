@@ -56,7 +56,47 @@ body {
   line-height: 1.6;
   font-smoothing: antialiased;
 }
+.testimonial-row {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.testimonial-col-01 {
+  display: flex;
+  padding: 10;
+  flex: 1 1 auto; /* Allows the column to grow and shrink as needed */
+}
+
+.testimonial-box {
+  display: flex;
+  flex-direction: column; /* Stacks content vertically */
+  justify-content: space-between; /* Spaces content evenly */
+  height: 100%; /* Ensures equal height boxes */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.testimonial-content {
+  flex-grow: 1; /* Ensures content part grows to fill available space */
+}
+
+/* Author section layout */
+.testimonial-author {
+  display: flex;
+  flex-direction: column; /* Stack author image and info vertically */
+  align-items: center; /* Center align image and text */
+  margin-top: 15px;
+}
+
+.author-image {
+  margin-bottom: 10px; /* Space between image and author info */
+}
+
+.author-info {
+  text-align: center; /* Center align the author details */
+}
 .dark-theme {
   color: #888888;
 }
